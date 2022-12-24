@@ -1,5 +1,7 @@
 FROM python:3.11.1
 
+RUN pip install --upgrade pip setuptools wheel
+# RUN pip install prophet --global http.sslVerify false;
 RUN pip install yapf
 
 RUN pip install jupyterlab
