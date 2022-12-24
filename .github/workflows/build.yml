@@ -3,7 +3,6 @@ on:
   push:
 jobs:
   build-docker-artifacts:
-    needs: [ unit-test ]
     runs-on: ubuntu-latest
     if: contains(github.ref, 'main')
     steps:
