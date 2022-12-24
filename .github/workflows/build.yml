@@ -30,3 +30,8 @@ jobs:
 
       - name: Docker Push Latest
         run: docker push fidelissauro/jupyter-laboratory:latest
+
+      - name: Docker Push Release Tag
+        run: |
+          TAG=$(git describe --tags --abbrev=0)
+          docker push fidelissauro/jupyter-laboratory:latest:$TAG
