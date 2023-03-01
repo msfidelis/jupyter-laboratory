@@ -1,4 +1,4 @@
-FROM python:3.11.1
+FROM python:3.10
 
 RUN pip install --upgrade pip setuptools wheel
 # RUN pip install prophet --global http.sslVerify false;
