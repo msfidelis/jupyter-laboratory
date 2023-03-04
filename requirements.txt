@@ -11,3 +11,4 @@ seaborn
 yellowbrick
 pmdarima
 statsforecast
+datasetsforecast
