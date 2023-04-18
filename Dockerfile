@@ -14,7 +14,7 @@ ADD requirements.txt .
 
 RUN ls -lha ; pwd ; pip install -r requirements.txt
 
-RUN jt -t onedork -T -N -kl
+#RUN jt -t onedork -T -N -kl
 
 
 RUN jupyter nbextension enable scratchpad/main --sys-prefix 

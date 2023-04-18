@@ -12,3 +12,4 @@ yellowbrick
 pmdarima
 statsforecast
 datasetsforecast
+lightgbm
