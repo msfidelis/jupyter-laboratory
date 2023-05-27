@@ -12,4 +12,6 @@ yellowbrick
 pmdarima
 statsforecast
 datasetsforecast
+sktime==0.17.0
 lightgbm
+pycaret
